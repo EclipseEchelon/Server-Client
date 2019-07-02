@@ -1,7 +1,7 @@
 # Server-Client
 This is a Server Client I created in python. It takes a list of strings from the client side and sends them to the server. The strings are formatted as polynomials and the server side evaluates these. The result is then sent back to the client side. This is a good project for understanding the connection between client and server and the manipulation of data between them. 
 
-he server will listen on a specific port number (ex. 12345). It will carry out polynomial computations using the functions in the provided module. Requests are in one of two formats:
+The server will listen on a specific port number (ex. 12345). It will carry out polynomial computations using the functions in the provided module. Requests are in one of two formats:
 Evaluate Request 
 Request starts with ‘E’ 
 Followed by an argument value 
